@@ -9,3 +9,4 @@
 ## :hammer_and_wrench: Инструменты / Tools:
 - Microsoft Excel :briefcase:
 - Тренажёр Яндекс.Практикум :desktop_computer:
+https://docs.google.com/spreadsheets/d/1L5XXr3JBqcQOBYlATVhFeaFk1VsRsICaBtGQTj3iE5c/edit?usp=sharing - тест-кейс
