@@ -16,8 +16,9 @@
 - Тренажёр Яндекс.Практикум :desktop_computer:
 - Draw.io :straight_ruler:
 - Figma :card_file_box:
-- Yandex.Tracker :file_cabinet:
+- Youtrack :file_cabinet: Ссылки на баг-репорты
+https://dep.youtrack.cloud/projects
 - Postman :envelope:
 - Android Studio :robot:
 - Cygwin64 :computer:
-- PostgreSQL :closed_lock_with_key:
+- PostgreSQL :closed_lock_with_key: 
