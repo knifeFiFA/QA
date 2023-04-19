@@ -5,7 +5,7 @@
 - Сформировать чек-листы на основе требований / Generate checklists based on requirements :white_check_mark:
 - Сформировать тест-кейсы / Generate test cases :white_check_mark:
 - Провести работу с Charles / Get train with Charles :white_check_mark:
-- Сформировать баг-репорты в Яндекс.Трекере / Generate bug reports in Yandex.Tracker :white_check_mark:
+- Сформировать баг-репорты в Youtrack / Generate bug reports in Youtrack :white_check_mark:
 - Сформировать таблицы отчёта / Generate report tables :white_check_mark:
 
 ## :hammer_and_wrench: Инструменты / Tools:
