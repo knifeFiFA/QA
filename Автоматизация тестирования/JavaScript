@@ -1,0 +1,348 @@
+1. Переменные, операция присваивания
+
+1 задание
+
+const car = 'Mercedes';
+let bus = 'Volvo';
+let carSharing = car;
+
+2 задание
+
+const car = 'Mercedes';
+let bus = 'Volvo';
+let carSharing = car;
+console.log(car)
+console.log(bus)
+console.log(carSharing)
+
+2. Элементарные типы данных
+
+1 задание
+
+let engine = '249 hp';
+let turbo = true;
+let maxSpeed = 260;
+
+console.log(engine, turbo, maxSpeed);
+console.log(typeof engine, typeof turbo, typeof maxSpeed);
+
+3. Объекты
+
+1 задание
+
+let car = {
+engine : '249 hp',
+turbo : true,
+maxSpeed : 260
+};
+
+console.log(typeof car);
+
+2 задание
+
+let carSpecs = ['249 hp', true, 260];
+
+console.log(typeof carSpecs);
+console.log(carSpecs.length);
+console.log(carSpecs[0]);
+
+4. Арифметические операторы
+
+1 задание
+
+console.log(169 + 269);
+
+2 задание
+
+console.log((8*60-(137+122+43+58))/60);
+
+5. Строковые операторы
+
+1 задание
+
+console.log(`
+ (|_|)
+(='.'=)
+(")_(")`)
+
+2 задание
+
+let multiply = '2'*'2';
+console.log(multiply);
+console.log(typeof multiply)
+
+6. Операторы сравнения и логические операторы
+
+1 задание
+
+console.log(2 * 2 <= 5);
+console.log('back' === 'back');
+console.log(true > false);
+
+2 задание
+
+console.log(7 != '7');
+console.log('аА' == 'Аа');
+console.log((25 * 12 + 1) * 4 / 5 != (50 * 6 + 2 * 0.5) / 1.25);
+console.log(true * true == false * false);
+
+3 задание
+
+let x = 8;
+console.log(5 < x && x <= 10);
+
+7. Условие if
+
+1 задание
+
+let age = prompt('Укажите свой возраст');
+let ageNormalized = Number(age);
+if (ageNormalized >= 18 && ageNormalized <= 50) {alert('Всё в порядке')};
+
+2 задание
+
+let age = prompt('Укажите свой возраст');
+let ageNormalized = Number(age);
+if (ageNormalized >= 18 && ageNormalized <= 50) {
+    alert('Всё в порядке');
+}
+if (ageNormalized < 18 || ageNormalized > 50) {
+    alert('Ты не пройдёшь!');
+}
+
+8. Условие if - else
+
+1 задание
+
+let age = prompt('Укажите свой возраст');
+let ageNormalized = Number(age);
+// замени код ниже так, чтобы использовать else
+if (ageNormalized >= 18 && ageNormalized <= 50) {
+    alert('Всё в порядке')
+} else {
+    alert('Ты не пройдёшь!')
+};
+
+2 задание
+
+let education = confirm('Есть ли у вас высшее образование?')
+if (education == true) {
+  alert('Добро пожаловать')
+} else {
+    alert('Нужно больше знаний!')
+};
+
+9. Условие if - else if - else
+
+1 задание
+
+let age = prompt('Укажите свой возраст');
+let education = confirm('Есть ли у вас высшее образование?');
+let ageNormalized = Number(age);
+if (ageNormalized >= 18 && ageNormalized <= 50) {
+    alert('Всё в порядке')
+} else if (education) {
+    alert('Добро пожаловать')
+} else {
+    alert('Ты не пройдёшь!')
+};
+
+10. Условие switch-case
+
+1 задание
+
+const profi = prompt('Как вы оцениваете свой профессионализм по шкале от 1 до 5?');
+switch (profi) {
+  case '1':
+    alert('Ничего, всё впереди');
+    break;
+  case '2':
+    alert('Мы все учились понемногу');
+    break;
+  case '3':
+    alert('Неплохо');
+    break;
+  case '4':
+    alert('Достойно');
+    break;
+  case '5':
+    alert('Вы настоящий профи');
+    break;
+};
+
+11. Цикл for
+
+1 задание
+
+let power = Number(prompt('Укажи степень'));
+let result = 1;
+for (i = 1; i <= power; i++) {
+  result = (result * 2);
+};
+alert(result);
+
+12. Операторы continue / break
+
+1 задание
+
+let power = Number(prompt('Укажи степень'));
+let result = 1;
+for (let i = 1; i <= power; i++) {
+    if (i > 8) {
+        break;
+    }
+   result = result * 2
+};
+alert(result);
+
+2 задание
+
+let power = Number(prompt('Укажи степень'));
+let result = 1;
+for (let i = 1; i <= power; i++) {
+    if (i > 8) {
+        break;
+    }
+   result = result * 2
+};
+alert(result);
+
+13. Цикл while
+
+1 задание
+
+let power = Number(prompt('Укажи степень'));
+let result = 1;
+let i = 1;
+while (i <= power && i <= 8) {
+(i++)
+    result = result * 2;
+}
+alert(result);
+
+14. Цикл do-while
+
+1 задание
+
+let num = 1;
+do {
+    num = num * 2;
+num <= 128;
+}
+while (!num);
+console.log(num);
+
+15. Функции
+
+1 задание
+
+function helloPraktikum() {
+  alert('Привет, Практикум!');
+}
+helloPraktikum();
+
+16. Аргументы
+
+1 задание
+
+function glueText(text1, text2) {
+  alert(text1 + text2);
+}
+let text1 = "Мы все учились понемногу...";
+let text2 = "А сейчас ты учишься программировать на JS!";
+glueText(text1, text2)
+
+17. Оператор return
+
+1 задание
+
+(Вставлять во вкладку script.js)
+function plus15(currentAge) {
+return currentAge + 15;
+}
+let age = 51;
+let newAge = plus15 (age);
+alert('А через 15 лет будет ' + newAge);
+
+18. Модули
+
+1 задание
+
+const http = require('http');
+console.log(http.STATUS_CODES);
+
+19. ya.ru: автоматизация
+
+1 задание
+
+const puppeteer = require('puppeteer');
+
+async function testYaRu(){
+    console.log('Запуск браузера');
+    const browser = await puppeteer.launch();
+
+    console.log('Создание новой вкладки в браузере');
+    const page = await browser.newPage();
+
+    console.log('Переход на страницу ya.ru');
+    await page.goto('https://ya.ru/');
+
+    console.log('Ввод текста "Автоматизация тестирования" в поисковую строку');
+    const searchField = await page.$('#text');
+    await searchField.type('Автоматизация тестирования');
+
+    console.log('Клик в кнопку "Найти"');
+    const searchButton = await page.$('.button[type=submit]');
+    await searchButton.click();
+
+    console.log('Ожидание перехода в страницу поисковых результатов');
+    await page.waitForNavigation('.serp-item');
+
+    console.log('Получение элементов результата поиска');
+    const result = page.$('.serp-item');
+
+    console.log('Сравнение ОР и ФР');
+    if(result == null) {console.log('Результаты поиска не найдены')}
+    else console.log('Результаты поиска отобразились');
+
+    console.log('Закрытие браузера');
+    await browser.close();
+}
+
+2 задание
+
+const puppeteer = require('puppeteer');
+
+async function testYaRu(){
+    console.log('Запуск браузера');
+    const browser = await puppeteer.launch({headless: false, slowMo:100});
+    console.log('Создание новой вкладки в браузере');
+    const page = await browser.newPage();
+
+    console.log('Переход на страницу ya.ru');
+    await page.goto('https://ya.ru/');
+
+    console.log('Ввод текста "Автоматизация тестирования" в поисковую строку');
+    const searchField = await page.$('#text');
+    await searchField.type('Автоматизация тестирования');
+
+    console.log('Клик в кнопку "Найти"');
+    const searchButton = await page.$('.button[type=submit]');
+    await searchButton.click();
+
+console.log('Ожидание элемента с результатом');
+    await page.waitForNavigation('.serp-item');
+
+    console.log('Получаем результат');
+    const result = await page.$('.serp-item');
+
+    console.log('Проверка условия тест-кейса');
+        if (result === null) {
+        console.log("Результаты поиска не найдены");
+    } else {
+        console.log("Результаты поиска отобразились");
+    }
+
+    console.log("Закрытие браузера");
+    await browser.close();
+}
