@@ -346,3 +346,4 @@ console.log('Ожидание элемента с результатом');
     console.log("Закрытие браузера");
     await browser.close();
 }
+testYaRu();
